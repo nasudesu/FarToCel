@@ -1,5 +1,7 @@
 public class ConvertKelToFar {
     public double kelvinToFahrenheit(double kelvin) {
-        return (kelvin - 273.15) * 9/5 + 32;
+        double result = (kelvin - 273.15) * 9/5 + 32;
+        System.out.println("The temperature in Fahrenheit is: " + result);
+        return result;
     }
 }
