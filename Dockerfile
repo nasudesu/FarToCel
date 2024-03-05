@@ -7,7 +7,7 @@ COPY pom.xml /app/
 # Copy the entire project to the container
 COPY . /app/
 # Package your application
-RUN mvn test
+RUN mvn package
 # Run the main class (assuming your application has a main class)
 CMD ["java", "-jar", "target/interconversions.jar"]
 
