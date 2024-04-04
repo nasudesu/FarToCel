@@ -1,3 +1,5 @@
+package GUI1;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -28,7 +30,6 @@ public class GUI extends Application {
         button2.setText(content2);
         button3.setText(content3);
         label.setText(name);
-
     }
 
     @Override
