@@ -23,6 +23,7 @@ public class Localization {
         System.out.println(locale.getCountry());
 
         Locale defaultLocale = new Locale("en", "UK");
+
         Date currentDate = new Date();
 
         //DateFormat timeFormat = DateFormat.getDateTimeInstance(DateFormat.DEFAULT, DateFormat.DEFAULT);
