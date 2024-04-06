@@ -79,7 +79,7 @@ public class GUI2 extends Application {
         submitButton = new Button(submit);
         submitButton.setOnAction(event -> {
             try {
-                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/fxdemo", "root", "ohjelmisto1");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/fxdemo", ";)", ";)");
                 String sql = switch (selected) {
                     case "English" -> "INSERT INTO employee_en (first_name, last_name, email) VALUES (?, ?, ?)";
                     case "Farsi" -> "INSERT INTO employee_fa (first_name, last_name, email) VALUES (?, ?, ?)";
